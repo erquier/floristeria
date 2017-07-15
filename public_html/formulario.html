@@ -9,25 +9,58 @@ and open the template in the editor.
         <title>formulario de contacto</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href=css/estilos.css>
+        <link rel='stylesheet' type='text/css' href=css/estiloform.css>
     </head>
     <body>
         <div>
+            <div id="cabecera">
+            Clariza's Floriseria</br>
+            <span>Taller Floral</span>
+            <div id='menu'>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li>Quienes somos</li>
+                <li>Catalogo de productos</li>
+                <li><a href='formulario.html'>Contacto</a></li>
+            </ul>
+                </div>
+        </div>
             <h1>Formulario de contacto</h1>
             <form>
-                <label for='nombre'>Entre Su nombre</label>
+                <div>
+                <label for='nombre'>Digite Su nombre</label>
                 <input type='text' id='nombre'/>
+                </div>
                 
-                <label for='Telefono'>Entre Su telefono</label>
+                <div>
+                <label for='Telefono'>Telefono</label>
                 <input type='text' id='telefono'/>
-    
-                <label for='correo'>Entre Su Correo</label>
-                <input type='text' id='Correo'/>
+                </div>
                 
-                <label for='asunto'>Explique el asunto que se desea tratar:</label>
-                <textarea id='asunto' cols='50' rows='10'></textarea>
-                <button type='submit'> Enviar</button>
+                <div>
+                <label for='correo'>Email</label>
                 <input type='text' id='Correo'/>
+                </div>
+                
+                <div>
+                <label for='asunto'>Explique el asunto que se desea tratar:</label>
+              
+                <textarea id='asunto' cols='50' rows='10'></textarea>
+                </div>
+                <div>
+                <button type='submit'> Enviar</button>
+                </div>
+                
             </form>
         </div>
+        <div id="pie">
+            Calle 13, residente, avenida lo Saitiano, esq. Los grajosos, Puerto Principe Haiti</br> Tel. (                     555)555-5555.</br>
+            <img src='imagenes/img2.png'>
+            <img src='imagenes/img3.png'>
+            <img src='imagenes/img4.png'>
+            
+        </div>
+        
     </body>
 </html>

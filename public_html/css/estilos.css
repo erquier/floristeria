@@ -40,3 +40,18 @@ and open the template in the editor.
 #pie img{
     width: 30px;
 }
+/*Aqui estamos definiendo el mismo color y tamaño de letra para los enlaces */
+a:link, a:visited{
+ font-size: 20px;
+ background: crimson;   
+ text-decoration: none;
+}
+a:hover{
+    background: black;
+    color: red;
+}
+
+#menu ul li:hover{
+    background: black;
+    color: red;
+}
